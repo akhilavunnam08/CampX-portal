@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>CampusX: Automatically flags low attendance and generates alert when attendance falls below 75% threshold.</description>
+    <environments>Default</environments>
+    <interviewLabel>CampusX Attendance Alert {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CampusX Attendance Defaulter Alert</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value><stringValue>LightningFlowBuilder</stringValue></value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value><stringValue>AUTO_LAYOUT_CANVAS</stringValue></value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Attendance_Threshold</targetReference>
+        </connector>
+        <object>Attendance__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <decisions>
+        <name>Check_Attendance_Threshold</name>
+        <label>Check Attendance Threshold</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Attendance OK</defaultConnectorLabel>
+        <rules>
+            <name>Attendance_Below_75</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Attendance_Percentage__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>0.75</numberValue>
+                </rightValue>
+            </conditions>
+            <label>Below 75%</label>
+        </rules>
+    </decisions>
+</Flow>

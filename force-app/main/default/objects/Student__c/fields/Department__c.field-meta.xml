@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <description>Academic Department</description>
+    <label>Department</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Computer Science & Engineering</fullName>
+                <default>true</default>
+                <label>Computer Science & Engineering</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>Electronics & Communication</fullName>
+                <default>false</default>
+                <label>Electronics & Communication</label>
+            </value>
+            <value>
+                <fullName>Electrical & Electronics</fullName>
+                <default>false</default>
+                <label>Electrical & Electronics</label>
+            </value>
+            <value>
+                <fullName>Mechanical Engineering</fullName>
+                <default>false</default>
+                <label>Mechanical Engineering</label>
+            </value>
+            <value>
+                <fullName>Civil Engineering</fullName>
+                <default>false</default>
+                <label>Civil Engineering</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

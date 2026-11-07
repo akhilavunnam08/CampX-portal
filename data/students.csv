@@ -1,0 +1,11 @@
+First_Name__c,Last_Name__c,Roll_Number__c,Email__c,Phone__c,Department__c,Current_Semester__c,Admission_Date__c,Status__c,CGPA__c,Total_Fee_Due__c,Overall_Attendance__c
+Tarun Kumar,Reddy,22AG1A0501,tarunkumar@campusx.edu,9876543210,Computer Science & Engineering,Semester 8,2022-08-10,Active,8.85,0.00,88.50
+Ananya,Sharma,22AG1A0502,ananya.sharma@campusx.edu,9876543211,Computer Science & Engineering,Semester 8,2022-08-10,Active,9.20,0.00,92.00
+Sai Teja,Varma,22AG1A0503,saiteja.varma@campusx.edu,9876543212,Information Technology,Semester 8,2022-08-11,Active,7.45,25000.00,78.00
+Sneha,Rao,22AG1A0504,sneha.rao@campusx.edu,9876543213,Electronics & Communication,Semester 6,2023-08-12,Active,8.10,0.00,84.00
+Rahul,Verma,22AG1A0505,rahul.verma@campusx.edu,9876543214,Computer Science & Engineering,Semester 6,2023-08-12,Active,6.90,45000.00,71.50
+Divya,Patel,22AG1A0506,divya.patel@campusx.edu,9876543215,Electrical & Electronics,Semester 8,2022-08-10,Active,8.40,12000.00,86.00
+Karthik,Naidu,22AG1A0507,karthik.naidu@campusx.edu,9876543216,Mechanical Engineering,Semester 4,2024-08-16,Active,7.15,30000.00,73.50
+Pooja,Hegde,22AG1A0508,pooja.hegde@campusx.edu,9876543217,Computer Science & Engineering,Semester 4,2024-08-16,Active,9.50,0.00,95.00
+Vikram,Goud,22AG1A0509,vikram.goud@campusx.edu,9876543218,Civil Engineering,Semester 6,2023-08-14,Active,6.70,60000.00,68.00
+Meghana,Reddy,22AG1A0510,meghana.reddy@campusx.edu,9876543219,Information Technology,Semester 8,2022-08-10,Active,8.65,0.00,89.00

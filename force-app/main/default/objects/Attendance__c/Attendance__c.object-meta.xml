@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Monthly student attendance register and eligibility tracker</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Attendance Record</label>
+    <nameField>
+        <displayFormat>ATT-{0000}</displayFormat>
+        <label>Attendance ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Attendance Records</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

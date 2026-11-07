@@ -1,0 +1,78 @@
+.container {
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.avatar-box {
+    text-align: center;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.student-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 0.5rem;
+}
+
+.roll-number {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+}
+
+.metric-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.metric-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #64748b;
+}
+
+.metric-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0.25rem 0;
+}
+
+.metric-max {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+.tag-green {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #059669;
+}
+
+.tag-red {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #dc2626;
+}
+
+.tag-amber {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #d97706;
+}
+
+.info-box {
+    background: #ffffff;
+    color: #334155;
+    font-size: 0.85rem;
+}

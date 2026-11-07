@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_Type__c</fullName>
+    <description>Category of fee</description>
+    <label>Fee Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tuition Fee</fullName>
+                <default>true</default>
+                <label>Tuition Fee</label>
+            </value>
+            <value>
+                <fullName>Examination Fee</fullName>
+                <default>false</default>
+                <label>Examination Fee</label>
+            </value>
+            <value>
+                <fullName>Laboratory Fee</fullName>
+                <default>false</default>
+                <label>Laboratory Fee</label>
+            </value>
+            <value>
+                <fullName>Library Fee</fullName>
+                <default>false</default>
+                <label>Library Fee</label>
+            </value>
+            <value>
+                <fullName>Transport & Hostel Fee</fullName>
+                <default>false</default>
+                <label>Transport & Hostel Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

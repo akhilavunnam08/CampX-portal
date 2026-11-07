@@ -1,0 +1,204 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef1"
+      },
+      "First_Name__c": "Tarun Kumar",
+      "Last_Name__c": "Reddy",
+      "Roll_Number__c": "22AG1A0501",
+      "Email__c": "tarunkumar@campusx.edu",
+      "Phone__c": "9876543210",
+      "Department__c": "Computer Science & Engineering",
+      "Current_Semester__c": "Semester 8",
+      "Admission_Date__c": "2022-08-10",
+      "Status__c": "Active",
+      "CGPA__c": 8.85,
+      "Total_Fee_Due__c": 0,
+      "Overall_Attendance__c": 88.5,
+      "Academic_Results__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Academic_Result__c",
+              "referenceId": "ResultRef1"
+            },
+            "Semester__c": "Semester 7",
+            "Subject_Code__c": "CS701",
+            "Subject_Name__c": "Cloud Computing & Distributed Systems",
+            "Credits__c": 4,
+            "Internal_Marks__c": 28,
+            "External_Marks__c": 62,
+            "Grade__c": "O",
+            "Result_Status__c": "Pass"
+          },
+          {
+            "attributes": {
+              "type": "Academic_Result__c",
+              "referenceId": "ResultRef2"
+            },
+            "Semester__c": "Semester 7",
+            "Subject_Code__c": "CS702",
+            "Subject_Name__c": "Deep Learning & Neural Networks",
+            "Credits__c": 4,
+            "Internal_Marks__c": 27,
+            "External_Marks__c": 58,
+            "Grade__c": "A+",
+            "Result_Status__c": "Pass"
+          }
+        ]
+      },
+      "Fee_Records__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Fee_Record__c",
+              "referenceId": "FeeRef1"
+            },
+            "Academic_Year__c": "2025-2026",
+            "Fee_Type__c": "Tuition Fee",
+            "Total_Amount__c": 120000,
+            "Paid_Amount__c": 120000,
+            "Payment_Status__c": "Paid",
+            "Due_Date__c": "2025-09-30",
+            "Payment_Date__c": "2025-08-25",
+            "Transaction_Reference__c": "TXN-CAMPUSX-994812"
+          }
+        ]
+      },
+      "Attendance_Records__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Attendance__c",
+              "referenceId": "AttRef1"
+            },
+            "Month__c": "September",
+            "Year__c": "2025",
+            "Total_Working_Days__c": 24,
+            "Days_Present__c": 22
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef2"
+      },
+      "First_Name__c": "Ananya",
+      "Last_Name__c": "Sharma",
+      "Roll_Number__c": "22AG1A0502",
+      "Email__c": "ananya.sharma@campusx.edu",
+      "Phone__c": "9876543211",
+      "Department__c": "Computer Science & Engineering",
+      "Current_Semester__c": "Semester 8",
+      "Admission_Date__c": "2022-08-10",
+      "Status__c": "Active",
+      "CGPA__c": 9.2,
+      "Total_Fee_Due__c": 0,
+      "Overall_Attendance__c": 92,
+      "Academic_Results__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Academic_Result__c",
+              "referenceId": "ResultRef3"
+            },
+            "Semester__c": "Semester 7",
+            "Subject_Code__c": "CS701",
+            "Subject_Name__c": "Cloud Computing & Distributed Systems",
+            "Credits__c": 4,
+            "Internal_Marks__c": 30,
+            "External_Marks__c": 65,
+            "Grade__c": "O",
+            "Result_Status__c": "Pass"
+          }
+        ]
+      },
+      "Fee_Records__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Fee_Record__c",
+              "referenceId": "FeeRef2"
+            },
+            "Academic_Year__c": "2025-2026",
+            "Fee_Type__c": "Tuition Fee",
+            "Total_Amount__c": 120000,
+            "Paid_Amount__c": 120000,
+            "Payment_Status__c": "Paid",
+            "Due_Date__c": "2025-09-30",
+            "Payment_Date__c": "2025-08-20",
+            "Transaction_Reference__c": "TXN-CAMPUSX-882310"
+          }
+        ]
+      },
+      "Attendance_Records__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Attendance__c",
+              "referenceId": "AttRef2"
+            },
+            "Month__c": "September",
+            "Year__c": "2025",
+            "Total_Working_Days__c": 24,
+            "Days_Present__c": 23
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef3"
+      },
+      "First_Name__c": "Rahul",
+      "Last_Name__c": "Verma",
+      "Roll_Number__c": "22AG1A0505",
+      "Email__c": "rahul.verma@campusx.edu",
+      "Phone__c": "9876543214",
+      "Department__c": "Computer Science & Engineering",
+      "Current_Semester__c": "Semester 6",
+      "Admission_Date__c": "2023-08-12",
+      "Status__c": "Active",
+      "CGPA__c": 6.9,
+      "Total_Fee_Due__c": 45000,
+      "Overall_Attendance__c": 71.5,
+      "Fee_Records__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Fee_Record__c",
+              "referenceId": "FeeRef3"
+            },
+            "Academic_Year__c": "2025-2026",
+            "Fee_Type__c": "Tuition Fee",
+            "Total_Amount__c": 120000,
+            "Paid_Amount__c": 75000,
+            "Payment_Status__c": "Partially Paid",
+            "Due_Date__c": "2025-09-30",
+            "Payment_Date__c": "2025-09-28",
+            "Transaction_Reference__c": "TXN-CAMPUSX-551980"
+          }
+        ]
+      },
+      "Attendance_Records__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Attendance__c",
+              "referenceId": "AttRef3"
+            },
+            "Month__c": "September",
+            "Year__c": "2025",
+            "Total_Working_Days__c": 24,
+            "Days_Present__c": 17
+          }
+        ]
+      }
+    }
+  ]
+}

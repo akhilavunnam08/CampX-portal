@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>CampusX Centralized Student Portal for managing academic results, fee structures, and attendance records.</description>
+    <formFactors>Large</formFactors>
+    <formFactors>Small</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>CampusX Student Portal</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Academic_Result__c</tabs>
+    <tabs>Fee_Record__c</tabs>
+    <tabs>Attendance__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

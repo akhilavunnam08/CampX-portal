@@ -1,0 +1,20 @@
+Roll_Number__c,Semester__c,Subject_Code__c,Subject_Name__c,Credits__c,Internal_Marks__c,External_Marks__c,Grade__c,Result_Status__c
+22AG1A0501,Semester 7,CS701,Cloud Computing & Distributed Systems,4,28,62,O,Pass
+22AG1A0501,Semester 7,CS702,Deep Learning & Neural Networks,4,27,58,A+,Pass
+22AG1A0501,Semester 7,CS703,Cybersecurity & Cryptography,3,26,55,A+,Pass
+22AG1A0501,Semester 6,CS601,Machine Learning Foundations,4,29,61,O,Pass
+22AG1A0501,Semester 6,CS602,Compiler Design,3,25,50,A,Pass
+22AG1A0502,Semester 7,CS701,Cloud Computing & Distributed Systems,4,30,65,O,Pass
+22AG1A0502,Semester 7,CS702,Deep Learning & Neural Networks,4,29,63,O,Pass
+22AG1A0503,Semester 7,IT701,Full Stack Web Development,4,24,48,B+,Pass
+22AG1A0503,Semester 7,IT702,Big Data Analytics,3,22,42,B,Pass
+22AG1A0504,Semester 5,EC501,Digital Signal Processing,4,26,54,A,Pass
+22AG1A0504,Semester 5,EC502,Microprocessors & Microcontrollers,4,27,57,A+,Pass
+22AG1A0505,Semester 5,CS501,Operating Systems,4,18,32,C,Pass
+22AG1A0505,Semester 5,CS502,Computer Networks,4,15,25,F,Fail
+22AG1A0506,Semester 7,EE701,Power Systems Analysis,4,27,55,A+,Pass
+22AG1A0507,Semester 3,ME301,Thermodynamics,4,20,38,B,Pass
+22AG1A0508,Semester 3,CS301,Data Structures & Algorithms,4,30,67,O,Pass
+22AG1A0508,Semester 3,CS302,Discrete Mathematics,3,29,64,O,Pass
+22AG1A0509,Semester 5,CE501,Structural Analysis,4,16,28,F,Fail
+22AG1A0510,Semester 7,IT701,Full Stack Web Development,4,28,59,A+,Pass

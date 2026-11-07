@@ -1,0 +1,58 @@
+<template>
+    <lightning-card title="CampusX Student Executive Summary" icon-name="standard:education">
+        <div class="slds-p-around_medium container">
+            <template if:true={student}>
+                <div class="slds-grid slds-wrap slds-gutters">
+                    <!-- Student Identity -->
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 profile-col">
+                        <div class="avatar-box">
+                            <lightning-avatar variant="circle" initials={initials} fallback-icon-name="standard:user" size="large"></lightning-avatar>
+                            <div class="slds-m-top_small">
+                                <h2 class="student-name">{student.name}</h2>
+                                <p class="roll-number">Roll No: <strong>{student.rollNumber}</strong></p>
+                                <span class={statusBadgeClass}>{student.status}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metrics Cards -->
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_8-of-12">
+                        <div class="slds-grid slds-gutters slds-wrap">
+                            <!-- CGPA Metric -->
+                            <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-m-bottom_small">
+                                <div class="metric-card cgpa-card">
+                                    <div class="metric-label">CGPA</div>
+                                    <div class="metric-value">{student.cgpa} <span class="metric-max">/ 10</span></div>
+                                    <div class="metric-tag">{cgpaCategory}</div>
+                                </div>
+                            </div>
+
+                            <!-- Attendance Metric -->
+                            <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-m-bottom_small">
+                                <div class="metric-card attendance-card">
+                                    <div class="metric-label">Attendance</div>
+                                    <div class="metric-value">{student.attendance}%</div>
+                                    <div class={attendanceTagClass}>{attendanceStatus}</div>
+                                </div>
+                            </div>
+
+                            <!-- Fee Due Metric -->
+                            <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-m-bottom_small">
+                                <div class="metric-card fee-card">
+                                    <div class="metric-label">Pending Fees</div>
+                                    <div class="metric-value">₹{student.feeDue}</div>
+                                    <div class={feeTagClass}>{feeStatus}</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Department & Semester Info -->
+                        <div class="slds-box slds-box_x-small slds-m-top_x-small info-box">
+                            <p><strong>Department:</strong> {student.department} &nbsp;|&nbsp; <strong>Semester:</strong> {student.semester} &nbsp;|&nbsp; <strong>Email:</strong> {student.email}</p>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
